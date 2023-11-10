@@ -1,0 +1,44 @@
+.footer {
+    background-color: #b6e2d3b3;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../images/ElPesto1.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Tangerine', cursive;
+    color: black;
+}
+
+.Horario {
+    padding: 15%;
+}
+
+.contacto {
+    padding: 15%;
+}
+
+.Horario h4 {
+    font-size: 6vh;
+
+}
+
+.Horario p {
+    font-size: 4vh;
+}
+
+.contacto h4 {
+    font-size: 6vh;
+}
+
+.contacto p {
+    font-size: 4vh;
+}

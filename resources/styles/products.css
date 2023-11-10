@@ -1,0 +1,26 @@
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.food {
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    text-align: center;
+}
+.food h3 {
+    color: black;
+    font-family: 'Caveat';
+    font-family: 'Tangerine';
+    font-size: xx-large;
+}
+.food p {
+    font-family: 'Caveat';
+    font-family: 'Tangerine', cursive;
+    font-size: x-large;
+}

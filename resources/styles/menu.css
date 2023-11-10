@@ -1,0 +1,69 @@
+.menu-icon {
+    font-size: x-large;
+    cursor: pointer;
+    position: fixed;
+    top: 2.5%;
+    left: 17px;
+}
+
+
+
+.close-icon {
+    font-size: 24px;
+    color: #000000;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(122, 230, 191, 0.341);
+    z-index: 1;
+    transition: left 0.3s ease-in-out;
+}
+
+.sidebar {
+    background-color: #B6E2D3;
+    color: #010101;
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(56, 58, 109, 0.2);
+    overflow-y: auto;
+
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu li {
+    margin-top: 30%;
+}
+
+.menu a {
+    color: #000000;
+    padding: 20px;
+    font-size: xx-large;
+    text-decoration: none;
+    font-family: 'Caveat';
+    font-family: 'Tangerine', cursive;
+}
+
+.menu a:hover {
+    margin-left: 20px;
+}
+
+.home {
+    width: 4%;
+    position: fixed;
+    top: 2.5%;
+    right: 17px;
+}
